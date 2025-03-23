@@ -125,7 +125,7 @@ void OneButtonTiny::tick(bool activeLevel) {
 
 
 /**
- *  @brief Advance to a new state and save the last one to come back in cas of bouncing detection.
+ *  @brief Advance to a new state and save the last one to come back in case of bouncing detection.
  */
 void OneButtonTiny::_newState(stateMachine_t nextState) {
   _state = nextState;
